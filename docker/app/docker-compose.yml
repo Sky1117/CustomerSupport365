@@ -1,0 +1,14 @@
+version: "2"
+services:
+  csportal:
+    image: csportal
+    build: ../../
+    ports:
+      - 7007:7007
+    container_name: csportal
+
+    volumes:
+      - /etc/localtime:/etc/localtime:ro
+    environment:
+     - PORT=7007
+     - MONGO_URI=mongodb://customersupport:customersupportP24x@178.16.139.175:27017/customersupport?authSource=admin

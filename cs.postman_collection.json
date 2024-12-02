@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "4d7b6aa4-b540-46df-b9a3-67b327c82d1d",
+		"name": "cs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17737508",
+		"_collection_link": "https://red-resonance-353455.postman.co/workspace/My-Workspace~c7a5722a-766d-47a0-8ace-e1fc2e8182f9/collection/17737508-4d7b6aa4-b540-46df-b9a3-67b327c82d1d?action=share&source=collection_link&creator=17737508"
+	},
+	"item": [
+		{
+			"name": "localhost:7007/api/master/add",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "\n[\n    {\n    \"code\": \"priority\",\n    \"key\": \"priority\",\n    \"value\": \"Low\",\n    \"active\": true\n},\n{\n    \"code\": \"priority\",\n    \"key\": \"priority\",\n    \"value\": \"medium\",\n    \"active\": true\n},\n{\n    \"code\": \"priority\",\n    \"key\": \"priority\",\n    \"value\": \"high\",\n    \"active\": true\n},\n{\n    \"code\": \"priority\",\n    \"key\": \"priority\",\n    \"value\": \"critical\",\n    \"active\": true\n},\n{\n    \"code\": \"department_name\",\n    \"key\": \"department_name\",\n    \"value\": \"Customer Care\",\n    \"active\": true\n},\n{\n    \"code\": \"department_name\",\n    \"key\": \"department_name\",\n    \"value\": \"Accounts\",\n    \"active\": true\n},\n{\n    \"code\": \"peoples_in_department\",\n    \"key\": \"peoples_in_department\",\n    \"value\": \"aman\",\n    \"active\": true\n},\n{\n    \"code\": \"peoples_in_department\",\n    \"key\": \"peoples_in_department\",\n    \"value\": \"naman\",\n    \"active\": true\n},\n{\n    \"code\": \"ticket_title\",\n    \"key\": \"ticket_title\",\n    \"value\": \"Screen issue\",\n    \"active\": true\n},\n{\n    \"code\": \"ticket_title\",\n    \"key\": \"ticket_title\",\n    \"value\": \"software issue\",\n    \"active\": true\n},\n{\n    \"code\": \"ticket_subtitle\",\n    \"key\": \"ticket_subtitle\",\n    \"value\": \"Burn pixels\",\n    \"active\": true\n},\n{\n    \"code\": \"ticket_subtitle\",\n    \"key\": \"ticket_subtitle\",\n    \"value\": \"scratched\",\n    \"active\": true\n},\n{\n    \"code\": \"ratings\",\n    \"key\": \"ratings\",\n    \"value\": \"1\",\n    \"active\": true\n},\n{\n    \"code\": \"ratings\",\n    \"key\": \"ratings\",\n    \"value\": \"2\",\n    \"active\": true\n},\n{\n    \"code\": \"ratings\",\n    \"key\": \"ratings\",\n    \"value\": \"3\",\n    \"active\": true\n},\n{\n    \"code\": \"ratings\",\n    \"key\": \"ratings\",\n    \"value\": \"4\",\n    \"active\": true\n},\n{\n    \"code\": \"ratings\",\n    \"key\": \"ratings\",\n    \"value\": \"5\",\n    \"active\": true\n},\n{\n    \"code\": \"ticket_status\",\n    \"key\": \"ticket_status\",\n    \"value\": \"Ticket Created\",\n    \"active\": true\n},\n{\n    \"code\": \"ticket_status\",\n    \"key\": \"ticket_status\",\n    \"value\": \"Ticket Validate\",\n    \"active\": true\n},\n{\n    \"code\": \"ticket_status\",\n    \"key\": \"ticket_status\",\n    \"value\": \"Pick-Up Request Generated\",\n    \"active\": true\n},\n{\n    \"code\": \"ticket_status\",\n    \"key\": \"ticket_status\",\n    \"value\": \"Pick-Up Done\",\n    \"active\": true\n},\n{\n    \"code\": \"ticket_status\",\n    \"key\": \"ticket_status\",\n    \"value\": \"Device Received\",\n    \"active\": true\n},\n{\n    \"code\": \"ticket_status\",\n    \"key\": \"ticket_status\",\n    \"value\": \"Repair in progress\",\n    \"active\": true\n},\n{\n    \"code\": \"ticket_status\",\n    \"key\": \"ticket_status\",\n    \"value\": \"Repair Completed\",\n    \"active\": true\n},\n{\n    \"code\": \"ticket_status\",\n    \"key\": \"ticket_status\",\n    \"value\": \"Return Process\",\n    \"active\": true\n},\n{\n    \"code\": \"ticket_status\",\n    \"key\": \"ticket_status\",\n    \"value\": \"Delivered\",\n    \"active\": true\n},\n{\n    \"code\": \"main_status\",\n    \"key\": \"main_status\",\n    \"value\": \"New\",\n    \"active\": true\n},\n{\n    \"code\": \"main_status\",\n    \"key\": \"main_status\",\n    \"value\": \"Open\",\n    \"active\": true\n},\n{\n    \"code\": \"main_status\",\n    \"key\": \"main_status\",\n    \"value\": \"Pending\",\n    \"active\": true\n},\n{\n    \"code\": \"main_status\",\n    \"key\": \"main_status\",\n    \"value\": \"In progress\",\n    \"active\": true\n},\n{\n    \"code\": \"main_status\",\n    \"key\": \"main_status\",\n    \"value\": \"On hold\",\n    \"active\": true\n},\n{\n    \"code\": \"main_status\",\n    \"key\": \"main_status\",\n    \"value\": \"resolved\",\n    \"active\": true\n},\n{\n    \"code\": \"main_status\",\n    \"key\": \"main_status\",\n    \"value\": \"closed\",\n    \"active\": true\n},\n{\n    \"code\": \"main_status\",\n    \"key\": \"main_status\",\n    \"value\": \"cancelled\",\n    \"active\": true\n},\n{\n    \"code\": \"customer_type\",\n    \"key\": \"customer_type\",\n    \"value\": \"Retailer\",\n    \"active\": true\n},\n{\n    \"code\": \"customer_type\",\n    \"key\": \"customer_type\",\n    \"value\": \"Wholesaler\",\n    \"active\": true\n},\n{\n    \"code\": \"channel\",\n    \"key\": \"channel\",\n    \"value\": \"Website\",\n    \"active\": true\n},\n{\n    \"code\": \"channel\",\n    \"key\": \"channel\",\n    \"value\": \"email\",\n    \"active\": true\n},\n{\n    \"code\": \"channel\",\n    \"key\": \"channel\",\n    \"value\": \"Whats App\",\n    \"active\": true\n},\n{\n    \"code\": \"channel\",\n    \"key\": \"channel\",\n    \"value\": \"Live Chat\",\n    \"active\": true\n},\n{\n    \"code\": \"roles\",\n    \"key\": \"roles\",\n    \"value\": \"Team Lead\",\n    \"active\": true\n},\n{\n    \"code\": \"roles\",\n    \"key\": \"roles\",\n    \"value\": \"Manager\",\n    \"active\": true\n},\n{\n    \"code\": \"roles\",\n    \"key\": \"roles\",\n    \"value\": \"CFO\",\n    \"active\": true\n},\n{\n    \"code\": \"roles\",\n    \"key\": \"roles\",\n    \"value\": \"CEO\",\n    \"active\": true\n},\n{\n    \"code\": \"platform_type\",\n    \"key\": \"platform_type\",\n    \"value\": \"Email\",\n    \"active\": true\n},\n{\n    \"code\": \"platform_type\",\n    \"key\": \"platform_type\",\n    \"value\": \"Call\",\n    \"active\": true\n},\n{\n    \"code\": \"platform_type\",\n    \"key\": \"platform_type\",\n    \"value\": \"WhatsApp\",\n    \"active\": true\n},\n{\n    \"code\": \"platform_type\",\n    \"key\": \"platform_type\",\n    \"value\": \"Website\",\n    \"active\": true\n},\n{\n    \"code\": \"user_type\",\n    \"key\": \"user_type\",\n    \"value\": \"External User\",\n    \"active\": true\n},\n{\n    \"code\": \"user_type\",\n    \"key\": \"user_type\",\n    \"value\": \"Internal user\",\n    \"active\": true\n},\n{\n    \"code\": \"ticket_owner\",\n    \"key\": \"ticket_owner\",\n    \"value\": \"Employee 1\",\n    \"active\": true\n},\n{\n    \"code\": \"ticket_owner\",\n    \"key\": \"ticket_owner\",\n    \"value\": \"Employee 2\",\n    \"active\": true\n},\n{\n    \"code\": \"ticket_owner\",\n    \"key\": \"ticket_owner\",\n    \"value\": \"Employee 3\",\n    \"active\": true\n}\n\n]",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:7007/api/master/add",
+					"host": [
+						"localhost"
+					],
+					"port": "7007",
+					"path": [
+						"api",
+						"master",
+						"add"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
